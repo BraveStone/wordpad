@@ -1,0 +1,128 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WordPad - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\Release/WordPad.res" /i "\Temp\20086101104456\20086101104456\滑动按钮\src" /d "NDEBUG" /d "_VC60" /d "_AFXDLL" "D:\Temp\20086101104456\20086101104456\滑动按钮\src\WordPad.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE.tmp" with contents
+[
+/nologo /MD /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR".\Release/" /Fp".\Release/wordpad.pch" /Yu"stdafx.h" /Fo".\Release/" /Fd".\Release/" /FD /c 
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\buttondi.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\chicdial.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\cntritem.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\colorlis.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\datedial.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\ddxm.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\docopt.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\doctype.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\filenewd.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\formatba.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\formatpa.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\formatta.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\ipframe.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\key.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\listdlg.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\mainfrm.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\multconv.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\options.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\optionsh.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\pageset.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\ruler.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\srvritem.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\strings.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\unitspag.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\wordpad.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\wordpdoc.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\wordpvw.cpp"
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\XTrueColorToolBar.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF.tmp" with contents
+[
+/nologo /MD /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR".\Release/" /Fp".\Release/wordpad.pch" /Yc"stdafx.h" /Fo".\Release/" /Fd".\Release/" /FD /c 
+"D:\Temp\20086101104456\20086101104456\滑动按钮\src\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP10.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:".\Release/wordpad.pdb" /machine:I386 /out:".\Release/wordpad.exe" 
+".\Release\buttondi.obj"
+".\Release\chicdial.obj"
+".\Release\cntritem.obj"
+".\Release\colorlis.obj"
+".\Release\datedial.obj"
+".\Release\ddxm.obj"
+".\Release\docopt.obj"
+".\Release\doctype.obj"
+".\Release\filenewd.obj"
+".\Release\formatba.obj"
+".\Release\formatpa.obj"
+".\Release\formatta.obj"
+".\Release\ipframe.obj"
+".\Release\key.obj"
+".\Release\listdlg.obj"
+".\Release\mainfrm.obj"
+".\Release\multconv.obj"
+".\Release\options.obj"
+".\Release\optionsh.obj"
+".\Release\pageset.obj"
+".\Release\ruler.obj"
+".\Release\srvritem.obj"
+".\Release\stdafx.obj"
+".\Release\strings.obj"
+".\Release\unitspag.obj"
+".\Release\wordpad.obj"
+".\Release\wordpdoc.obj"
+".\Release\wordpvw.obj"
+".\Release\XTrueColorToolBar.obj"
+".\Release\WordPad.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP10.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+Compiling...
+buttondi.cpp
+chicdial.cpp
+cntritem.cpp
+colorlis.cpp
+datedial.cpp
+ddxm.cpp
+docopt.cpp
+doctype.cpp
+filenewd.cpp
+formatba.cpp
+formatpa.cpp
+formatta.cpp
+ipframe.cpp
+key.cpp
+listdlg.cpp
+mainfrm.cpp
+multconv.cpp
+options.cpp
+optionsh.cpp
+pageset.cpp
+Generating Code...
+Compiling...
+ruler.cpp
+srvritem.cpp
+strings.cpp
+unitspag.cpp
+wordpad.cpp
+wordpdoc.cpp
+wordpvw.cpp
+XTrueColorToolBar.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+wordpad.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
